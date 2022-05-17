@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+margin: 0;
+background-color: green;
+}
+
+header {
+  background-color: green;
+  padding: 10px;
+  text-align: center;
+  font-size: 40px;
+  font-style: italic;
+}
+
+nav {
+overflow: hidden;
+background-color: black;
+}
+
+nav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+text-decoration: underline;
+}
+
+nav a:hover {
+  background-color: lightgreen;
+  color: black;
+}
+
+h2{
+text-align: center;
+font-size: 30px;
+color: Black;
+background-color: green;
+
+}
+
+.card-deck{
+  background-color: green;
+}
+/*the colour between each card */
+
+.card {
+  background-color: lightgreen;
+  padding: 20px;
+  margin-top: 20px;
+  align-items: center;
+}
+/*adjusting size of card to fit content */
+img{
+  float: left;
+  width: 400px;
+  height: 250px;
+  padding: 0 10px 0 0;
+
+}
+/*placement of image  */
+
+h5 {
+  font-size: 60px;
+font-style: italic;
+color: Black;
+text-decoration: underline;
+
+}
+
+p{
+font-size: 40px;
+text-align: center;
+}
+/*adjusting appearnce of main text */
+a {
+font-size: 20px;
+  color: white;
+}
+
+/*separte from paragrapgh adjsuting the size of the links for secondary websites*/
+
+
+footer{
+text-align: center;
+background-color: white;
+padding:px;
+
+}

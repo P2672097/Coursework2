@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: arial sans-serif;
+  background-color: black;
+}
+/*overal design for main body of page  */
+
+header {
+background-color: green;
+padding: 40px;
+text-align: center;
+font-size: 40px;
+font-style: italic;
+background-image: image(image/rainforest-trust-logo.jpeg);
+/* attempt to add background image to header but failed*/
+}
+
+nav {
+float: left;
+width: 15%;
+height: auto;
+background-color: Grey;
+padding: 20px;
+font-size: 30px;
+font-style: oblique;
+}
+/*for home page i wanted the nav to be placed on the side and not the top of the page  */
+nav ul {
+  line-height: 40px;
+  padding: 20px;
+}
+
+nav a:hover {
+  background-color: lightgreen;
+  color: black;
+}
+/* when hovering over the nav a colour highlights the one you are going over*/
+
+
+article {
+float: left;
+padding: 30px;
+width: 85%;
+background-color: lightgreen;
+height: 300px;
+font-size: 20px;
+
+}
+/*adjusting text */
+
+.h1{
+  font-size: 30px;
+  font-style: oblique;
+  text-align: center;
+  text-decoration: underline;
+
+}
+
+section::after {
+  content: none;
+  display: table;
+  clear: both;
+}
+
+video{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  background-color: lightgreen;
+
+}
+/* adjusting size of video and placement*/
+p{
+  font-size: 30px;
+}
+
+
+footer {
+background: white;
+padding: 10px;
+text-align: center;
+font-size: 10px;
+}
